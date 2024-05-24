@@ -1,0 +1,56 @@
+﻿  Building 'passThrough' with toolset 'WindowsKernelModeDriver10.0' and the 'Universal' target platform.
+  Stamping x64\Release\passThrough.inf
+  Stamping [Version] section with DriverVer=05/07/2024,12.43.27.971
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.inf(8-8): warning 1324: [Version] section should specify PnpLockdown=1 to prevent external apps from modifying installed driver files.
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.inf(74-74): warning 1205: Section [MiniFilter.DriverFiles] referenced from DelFiles and CopyFiles directive.
+  passThrough.c
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(61,26): warning C4083: требуется ")"; обнаружен идентификатор "_VCRUNTIME_DISABLED_WARNINGS"
+  (компиляция исходного файла "passThrough.c")
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(111,1): warning C4005: _CRT_STRINGIZE: изменение макроопределения
+  (компиляция исходного файла "passThrough.c")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(85,1):
+  см. предыдущее определение "_CRT_STRINGIZE"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(114,1): warning C4005: _CRT_WIDE: изменение макроопределения
+  (компиляция исходного файла "passThrough.c")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(88,1):
+  см. предыдущее определение "_CRT_WIDE"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\vcruntime.h(155,1): warning C4005: __CRTDECL: изменение макроопределения
+  (компиляция исходного файла "passThrough.c")
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\km\crt\crtdefs.h(640,1):
+  см. предыдущее определение "__CRTDECL"
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\stdint.h(16,26): warning C4083: требуется ")"; обнаружен идентификатор "_VCRUNTIME_DISABLED_WARNINGS"
+  (компиляция исходного файла "passThrough.c")
+  
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(29,14): warning C4295: KEY: массив слишком мал и не может включать завершающий символ "null"
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(30,14): warning C4295: IV: массив слишком мал и не может включать завершающий символ "null"
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(694,43): warning C4057: функция: "const uint8_t *" отличается от "const int8_t [32]" по косвенному обращению к слегка разным базовым типам
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(694,48): warning C4057: функция: "const uint8_t *" отличается от "const int8_t [16]" по косвенному обращению к слегка разным базовым типам
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(695,50): warning C4047: функция: "uint8_t *" отличается по уровням косвенного обращения от "unsigned char (*)[256]"
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(695,50): warning C4024: AES_CBC_encrypt_buffer: различные типы для формального и фактического параметров 2
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(860,43): warning C4057: функция: "const uint8_t *" отличается от "const int8_t [32]" по косвенному обращению к слегка разным базовым типам
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(860,48): warning C4057: функция: "const uint8_t *" отличается от "const int8_t [16]" по косвенному обращению к слегка разным базовым типам
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(861,50): warning C4047: функция: "uint8_t *" отличается по уровням косвенного обращения от "unsigned char (*)[256]"
+C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\passThrough.c(861,50): warning C4024: AES_CBC_decrypt_buffer: различные типы для формального и фактического параметров 2
+  passThrough.vcxproj -> C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\x64\Release\passThrough.sys
+  Done Adding Additional Store
+  Successfully signed: C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\x64\Release\passThrough.sys
+  
+  Driver is 'Universal'.
+  .........................
+  Signability test complete.
+  
+  Errors:
+  None
+  
+  Warnings:
+  None
+  
+  Catalog generation complete.
+  C:\Users\smnvs\source\repos\Crypt\lab2\passThrough\x64\Release\passThrough\passthrough.cat
+  Done Adding Additional Store
+  Successfully signed: x64\Release\passThrough\passthrough.cat
+  
